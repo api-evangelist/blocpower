@@ -1,7 +1,30 @@
 aid: blocpower
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blocpower.png
 name: BlocPower
-description: BlocPower is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BlocPower is a Brooklyn-based climate technology and building decarbonization
+  company, founded in 2014 as a Public Benefit Corporation, that makes urban
+  buildings smarter, greener, and healthier with a focus on historically
+  underserved communities. It combines deep building-science expertise with
+  accessible financing to deliver energy-efficiency retrofits and electrification
+  measures such as heat pumps, pairing construction management with clean-energy
+  upgrades. As of late 2023 BlocPower reported more than 1,200 completed measures
+  across 1,100+ buildings nationwide, thousands of metric tons of CO2e reduced,
+  and hundreds of local job placements, earning recognition from the White House,
+  EPA, and TIME. BlocPower is a portfolio company of a16z and is tracked in the
+  API Evangelist network; it publishes no public developer API, developer portal,
+  SDKs, or GitHub organization at this time.
 url: https://raw.githubusercontent.com/api-evangelist/blocpower/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Climate Tech
+- Building Decarbonization
+- Energy Efficiency
+- Electrification
+- Clean Energy
+- Sustainability
+- Public Benefit Corporation
 apis: []
+common:
+- type: DomainSecurity
+  url: security/blocpower-domain-security.yml
+- type: Website
+  url: https://www.blocpower.io/
+- type: About
+  url: https://www.blocpower.io/about-us
+- type: PrivacyPolicy
+  url: https://www.blocpower.io/privacy-policy
+- type: Support
+  url: https://www.blocpower.io/contact-us
+- type: Careers
+  url: https://www.blocpower.io/careers
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
